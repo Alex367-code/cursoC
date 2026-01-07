@@ -1,0 +1,287 @@
+	A {
+		font-family: Verdana,Comic Sans MS;
+		color: blue;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	H1 {
+			font-family: Verdana, Arial, Helvetica;
+			font-size: 18pt;
+			font-weight: bold;
+			color: black;
+			border-bottom: 2pt solid maroon;
+			padding-bottom: 10px;
+	}
+
+	H2 {
+			font-family: Arial, Comic Sans MS, Arial, Helvetica;
+			font-size: 14pt;
+			font-weight: bold;
+			color: maroon;
+
+			padding-left: 10px;
+			margin-bottom: 30px;
+			margin-top: 30px;
+			border-bottom: 1pt solid maroon;
+			border-top: 1pt solid maroon;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background-color: #FFFFCC;
+			
+	}
+
+	H3 {
+		font-family: Verdana,Comic Sans MS, Arial, Helvetica;
+		font-size: 12pt;
+		font-weight: bold;
+		text-decoration: underline;
+		text-align: justify;
+		color: blue;
+	}
+
+	P, .texto {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 10pt;
+		margin-left: 10px;
+	}
+
+	.coment {
+		color: blue;
+	}
+
+	UL {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 10pt;
+	}
+
+	FORM {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 10pt;
+		text-align: justify;
+	}
+
+	.ejemplo {
+			border: 1pt dashed #000000;
+			color: black;
+			margin: 30px;
+			padding: 10px;
+			background-color: #FFFFCC;
+	}
+	.resultado {
+			border: 1pt solid #000000;
+			
+			margin: 10px;
+			padding: 5px;
+			background-color: #CCCCCC;
+	}	
+	.nota {
+	border: 1pt solid #000000;
+	margin: 10px;
+	padding: 10px;
+	}
+	
+	.barranavegaciontop {
+	margin-bottom: 10pt;
+	margin-left: 0pt;
+	padding: 2px;
+	font-size: 10pt;
+	}
+	.barranavegacionabajo {
+	margin-bottom: 10pt;
+	margin-left: 0pt;
+	border-top: 1pt solid #000000;
+	padding: 2px;
+	font-size: 10pt;
+	}
+
+
+	.mini {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 8pt;
+	}
+
+	.letraC {
+		font-family: Comic Sans MS, Arial, Helvetica;
+		font-size: 12pt;
+		color: blue;
+		font-weight: bold;
+	}
+
+	.comprobado {
+			color: blue;
+			font-size: 8pt;
+	}
+
+	.volver {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 8pt;
+		font-weight: normal;
+		color: blue;
+		text-decoration: none;	
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}
+
+	BODY {
+		background: white;
+		margin-left: 30px;
+		margin-right: 20px;
+	}
+	.barranav {
+		color: marron;
+		
+	}
+
+
+	A,.enlace {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 8pt;
+		font-weight: bold;
+		color: black;
+		text-decoration: none;
+	}
+	.preparacion {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 8pt;
+		font-weight: bold;
+		color: gray;
+		text-decoration: none;
+	}
+	.cabecera{
+		font-family: Comic Sans MS,Verdana;
+		font-size: 15pt;
+		font-weight: bold;
+		color: black;
+		text-decoration: none;
+		text-align: center;
+	}
+	.estado {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 8pt;
+		color: black;
+		font-style: italic;
+	}
+
+	BODY {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 8pt;
+		background: white;
+		color: black;
+	}
+
+
+.contenedor {
+  display: flex;               /* coloca índice e imagen en fila */
+  justify-content: space-between; /* separa los dos lados */
+  align-items: flex-start;     /* alinea arriba */
+}
+
+.indice {
+  width: 35%;                  /* ocupa menos de la mitad */
+  margin: 20px;
+}
+
+.indice a {
+  display: block;
+  border: 1px solid #444;       /* borde gris oscuro */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #1e1e1e;    /* fondo oscuro del recuadro */
+  color: #f0f0f0;               /* texto claro */
+  transition: 0.3s;
+  text-align: left;
+  font-size:20px;
+}
+
+.indice a:hover {
+  background-color: #333;       /* efecto hover más claro */
+}
+
+.imagen-lado {
+  width: 60%;                  /* ocupa el otro lado */
+}
+
+.imagen-lado {
+  display: block;       /* cada imagen ocupa toda la línea */
+  margin: 10px auto;    /* espacio entre ellas y centradas */
+  max-width: 100%;       /* opcional: ajusta el tamaño */
+}
+
+
+
+.volver a {
+  display: inline-block;       /* que se vea como bloque tipo botón */
+  background-color: #28a745;   /* verde estilo Bootstrap */
+  color: white;                /* texto blanco */
+  padding: 10px 20px;          /* espacio interno */
+  border-radius: 5px;          /* esquinas redondeadas */
+  text-decoration: none;       /* quitar subrayado */
+  font-size: 16px;             /* letras más grandes */
+  font-weight: bold;           /* texto más grueso */
+  transition: 0.3s;            /* animación suave */
+}
+
+.volver a:hover {
+  background-color: #218838;   /* verde más oscuro al pasar el mouse */
+}
+
+
+
+ul {
+  list-style: none;            /* quita las viñetas */
+  padding: 0;
+  margin: 0;
+  columns: 3;                  /* divide la lista en 3 columnas */
+  column-gap: 30px;            /* espacio entre columnas */
+}
+
+ul li {
+  margin: 6px 0;               /* espacio entre elementos */
+  break-inside: avoid;         /* evita que se partan los ítems entre columnas */
+}
+
+ul li a {
+  display: block;
+  background-color: #2c3e50;   /* fondo azul oscuro */
+  color: #ecf0f1;              /* texto claro */
+  padding: 6px 10px;           /* espacio interno más compacto */
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;             /* tamaño más pequeño */
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  background-color: #27ae60;   /* verde llamativo al pasar el mouse */
+  color: #fff;
+  transform: scale(1.03);      /* efecto de agrandarse un poco */
+}
+
+ul ul {
+  margin-left: 15px;           /* sangría para sublista */
+  columns: 1;                  /* sublistas en una sola columna */
+}
+
+ul ul li a {
+  background-color: #34495e;   /* tono diferente para subtemas */
+  font-size: 12px;             /* aún más pequeño */
+  font-weight: normal;
+}
+
+ul ul li a:hover {
+  background-color: #16a085;   /* verde distinto al hover */
+}
+
+
+/* Fondo guinda para páginas del curso */
+body.guinda {
+  background-color: #7A1F3D !important; /* tono guinda */
+  color: #fff;                          /* texto claro */
+  min-height: 100vh;                    /* ocupa toda la pantalla */
+
+
+

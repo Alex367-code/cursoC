@@ -1,0 +1,248 @@
+/* Fondo general oscuro */
+body {
+  font-family: Arial, sans-serif;
+  background: #000; /* negro sólido */
+  color: #fff;      /* texto blanco */
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezados */
+h1, h2 {
+  color: #fff; /* títulos en blanco */
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Botones */
+button, .btn, input[type="submit"] {
+  background: #444;   /* gris oscuro para contraste */
+  color: #fff;        /* letras blancas */
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover, input[type="submit"]:hover {
+  background: #666;   /* más claro al pasar el mouse */
+  transform: scale(1.05);
+}
+
+/* Tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+  background: #111; /* fondo negro suave */
+  color: #fff;      /* texto blanco */
+  box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+}
+
+table th, table td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background: #222;
+  color: #fff;
+}
+
+/* Links */
+a {
+  color: #00f2fe; /* azul brillante para destacar */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4facfe;
+}
+
+/* Bloques de ejemplo */
+.ejemplo {
+  background: #222;
+  border-left: 4px solid #00f2fe;
+  padding: 10px;
+  margin: 15px 0;
+  font-family: Consolas, monospace;
+  color: #fff;
+}
+/* Botón de menú */
+#menu-toggle {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #222;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Sidebar oculto por defecto */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* oculto */
+  width: 250px;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  transition: left 0.3s ease;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+/* Botón */
+#menu-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #222;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Sidebar oculto */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* oculto */
+  width: 250px;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  transition: left 0.3s ease;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+/* Lista dentro del menú */
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 12px 18px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+#sidebar ul li a:hover {
+  background: #444;
+  color: #00f2fe;
+}
+
+/* Cuando el checkbox está marcado, mostrar menú */
+#menu-toggle:checked ~ #sidebar {
+  left: 0;
+}
+/* Margen general para todo el contenido */
+body {
+  font-family: Arial, sans-serif;
+  background: #000;   /* fondo negro */
+  color: #fff;        /* texto blanco */
+  margin: 40px;       /* margen externo alrededor de todo el texto */
+}
+
+/* Si prefieres que el fondo cubra toda la pantalla y el texto se separe internamente */
+body {
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  margin: 0;          /* sin margen externo */
+  padding: 40px;      /* espacio interno para despegar el texto */
+}
+#menu-btn {
+  position: fixed;
+  top: 15px;   /* antes estaba en 15px, ahora más abajo */
+  left: 35px;
+  background: #2dc300;
+  color: #000000;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1001;
+}
+/* Botón verde para la clase volver */
+.volver a {
+  display: inline-block;
+  background: #28a745;   /* verde */
+  color: #fff;           /* texto blanco */
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto hover */
+.volver a:hover {
+  background: #218838;   /* verde más oscuro al pasar el mouse */
+  transform: scale(1.05);
+}
+
+/* Botones de navegación */
+.barranavegacionabajo a,
+.barranavegaciontop a {
+  display: inline-block;
+  background: #28a745;   /* verde */
+  color: #fff;           /* texto blanco */
+  padding: 10px 18px;
+  margin: 5px;           /* espacio entre botones */
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto hover */
+.barranavegacionabajo a:hover,
+.barranavegaciontop a:hover {
+  background: #218838;   /* verde más oscuro */
+  transform: scale(1.05);
+}
+/* Botones de navegación */
+p a {
+  display: inline-block;
+  background: #28a745;   /* verde */
+  color: #fff;           /* texto blanco */
+  padding: 10px 18px;
+  margin: 5px;           /* espacio entre botones */
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto hover */
+p a:hover {
+  background: #218838;   /* verde más oscuro */
+  transform: scale(1.05);
+}
+.logo {
+  background-image: url("logo1.png");   /* tu imagen */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;            /* mantiene proporciones */
+  
+  width: 150px;   /* tamaño del logo */
+  height: 150px;  /* ajusta según lo necesites */
+  
+  margin: 0 auto; /* centra horizontalmente */
+  margin-top: 20px; /* espacio desde arriba */
+}
